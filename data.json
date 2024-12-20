@@ -1,0 +1,80 @@
+{
+    "tenants": {
+        "tenantId": {
+            "name": "Cake Corner",
+            "address": "Mumbai, 400078",
+            "createdAt": "2024-01-01T09:00:00Z",
+            "contactNumber": "+91 9876543210",
+            "users": {
+                "STF-A001": {
+                    "name": "Arun Kumar",
+                    "email": "arun@chennaicakecorner.com",
+                    "role": "admin",
+                    "createdAt": "2024-01-01T09:05:00Z",
+                    "contactNumber": "+91 9443312345"
+                },
+                "STF-A002": {
+                    "name": "Lakshmi Narayanan",
+                    "email": "lakshmi@chennaicakecorner.com",
+                    "role": "staff",
+                    "createdAt": "2024-01-01T10:00:00Z",
+                    "contactNumber": "+91 9884512345"
+                }
+            },
+            "customers": {
+                "CUST-AA0001": {
+                    "name": "Kumar Verma",
+                    "email": "kvverma@gmail.com",
+                    "createdAt": "2024-01-01T09:05:00Z",
+                    "contactNumber": "+91 9443312345",
+                    "loyaltyPoints": 0
+                },
+                "CUST-AA0002": {
+                    "name": "Infoys",
+                    "email": "infy@gmail.com",
+                    "createdAt": "2024-01-01T10:00:00Z",
+                    "contactNumber": "+91 9884512345",
+                    "loyaltyPoints": 0
+                }
+            },
+            "inventory": {
+                "CI-AA0001": {
+                    "name": "Black Forest Cake",
+                    "type": "eggless",
+                    "price": 600.0,
+                    "quantity": 20,
+                    "expiryDate": "2024-01-10T23:59:59Z",
+                    "createdAt": "2024-01-01T11:00:00Z"
+                },
+                "CI-AA0002": {
+                    "name": "Gulab Jamun Cake",
+                    "type": "egg",
+                    "price": 750.0,
+                    "quantity": 10,
+                    "expiryDate": "2024-01-08T23:59:59Z",
+                    "createdAt": "2024-01-01T11:30:00Z"
+                }
+            },
+            "sales": {
+                "SAL-AA0001": {
+                    "cakeId": "cake001",
+                    "quantity": 5,
+                    "saleDate": "2024-01-02T13:00:00Z",
+                    "totalPrice": 3000.0,
+                    "paymentMode": "UPI",
+                    "soldBy": "STF-A002",
+                    "customerName": "CUST-AA0002"
+                },
+                "SAL-AA0002": {
+                    "cakeId": "cake002",
+                    "quantity": 2,
+                    "saleDate": "2024-01-02T14:00:00Z",
+                    "totalPrice": 1500.0,
+                    "paymentMode": "Cash",
+                    "soldBy": "STF-A001",
+                    "customerName": "CUST-AA0001"
+                }
+            }
+        }
+    }
+}
